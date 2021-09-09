@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <!-- displays site properly based on user's device -->
+
+  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+
+  <title>Frontend Mentor | Tip calculator app</title>
+
+  <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
+  <link rel="stylesheet" href="styles.css" type="text/css">
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Space+Mono:wght@400;500;700&display=swap" rel="stylesheet">
+</head>
+
+<body>
+  <div class="bill-container">
+    <div class="logo">
+      <img src="./images/logo.svg" alt="Logo">
+    </div>
+    <div class="bill-card-box">
+      <!-- Input Box -->
+      <div class="input-box-main">
+        <div class="bill-wrapper">
+          <label id="lbBill" class="lblBill">Bill</label>
+          <div class="wrapper-input">
+            <div class="msgerror" id="errInput"></div>
+            <input type="text" id="inbill" class="inpbill" placeholder="0.0">
+          </div>
+        </div>
+        <div class="wrapper-tip">
+          <div class="tip-label">
+            <label id="lblTip" class="lblTip"> Select Tip %</label>
+          </div>
+          <div> <button class="button-tip buttonActive default" value="5"> 5% </button> </div>
+          <div> <button class="button-tip" value="10">10%</button> </div>
+          <div> <button class="button-tip" value="15">15%</button> </div>
+          <div> <button class="button-tip" value="25">25%</button> </div>
+          <div> <button class="button-tip" value ="50">50%</buttona>
+          </div>
+          <input type="text" class="inpcustom" id="incustom" placeholder="Custom">
+        </div>
+
+        <div class="container-people">
+          <label id="lblPeople" class="lblPeople">Number of People</label>
+          <div class="msgerror" id="errormsg"></div>
+          <div class="wrapper-input">
+            <input type="text" id="inpeople" class="inppl" placeholder="1">
+
+          </div>
+        </div>
+      </div>
+      <!-- Input Box End-->
+
+      <!-- Output Box -->
+      <div class="output-box">
+        <div class="output-amount">
+          <div class="output-amount-tip">Tip Amount</div>
+          <div class="output-amount-person">/ person</div>
+          <div class="output-amount-value"><a id="inperperson">$0.00</a></div>
+        </div>
+        <div class="wrapper-title">
+          <div class="output-amount-tip">Total</div>
+          <div class="output-amount-person">/ person</div>
+          <div class="output-amount-value"><a id="totalperson">$0.00</a></div>
+        </div>
+        <div class="button-reset">RESET</div>
+      </div>
+      <!-- Output Box End-->
+    </div>
+
+    <!--Footer-->
+    <div class="attribution">
+      Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>.
+      Coded by <a href="https://github.com/abhishekalekar">Abhishek Alekar</a>.
+    </div>
+  </div>
+  <!-- Scripts -->
+  <script src="index.js"></script>
+</body>
+
+</html>

@@ -1,0 +1,262 @@
+/*****stlysheet for css *****/
+
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    font-family: "Space Mono", monospace;
+}
+
+:root {
+
+    /****** primary colors*******/
+    --Strong-cyan: hsl(172, 67%, 45%);
+
+    /******Neutral colors*******/
+    --Very-dark-cyan: hsl(183, 100%, 15%);
+    --Dark-grayish-cyan: hsl(186, 14%, 43%);
+    --Dark-grayish-cyan2: hsl(184, 14%, 56%);
+    --Light-grayish-cyan: hsl(185, 41%, 84%);
+    --Light-grayish-cyan2: hsl(189, 41%, 97%);
+    --White: hsl(0, 0%, 100%);
+}
+
+/****** style for body *******/
+body {
+    font-weight: 24px;
+    max-width: 100vw;
+    overflow-x: hidden;
+
+    background-color: var(--Light-grayish-cyan);
+    display: flex;
+    justify-content: center;
+
+}
+
+/***** Main Container *********/
+.bill-container {
+    width: 45%;
+    height: 30%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    
+    
+
+}
+
+
+.logo {
+    margin: 1vmax 5vmax 5vmax 5vmax;
+    justify-content: center;
+
+}
+
+/* Style for Bill Card  */
+.bill-card-box {
+    display: flex;
+    background-color: var(--White);
+    align-items: center;
+    height: 100%;
+    width: 100%;
+    border-radius: 20px;
+    margin: 0 0 20px 0;
+    padding: 10px 10px 10px 10px;
+    overflow: auto;
+    margin: auto;
+
+
+}
+
+/* style for input box */
+
+.input-box-main {
+  
+    width: 60%;
+    margin: auto;
+    display: flexbox;
+    flex-wrap: wrap; 
+    justify-content: center;   
+    
+    
+
+
+}
+
+.bill-wrapper,
+.container-people {
+    margin: 10px 20px 20px 20px;
+}
+
+
+/* sytles for Input and labels */
+label {
+    color: hsl(186, 14%, 43%); 
+    font-size: 14px;
+    font-weight: 700;
+}
+
+input {
+    background-color: var(--Light-grayish-cyan2);
+    background-position: 10px 10px;
+    background-repeat: no-repeat;
+    box-sizing: border-box;
+    border: none;
+    border-radius: 5px;
+    text-align: right;
+    padding: 5px 20px;
+    font-size: 24px;
+    font-weight: 700;
+    color: var(--Very-dark-cyan);
+    
+
+}
+
+input:focus {
+    outline-style: auto;
+    outline-color: var(--Strong-cyan);
+}
+
+.inpbill {
+    background-image: url(images/icon-dollar.svg);
+    width: 100%;
+    margin: 8px 0 0 10px;
+    
+}
+
+.inpbill::placeholder {
+    color: var(--Strong-cyan);
+}
+
+.lbltip {
+    padding-bottom: 20%;
+    text-align: left;
+}
+
+.inppl {
+    width: 100%;
+    margin: 8px 0 0 10px;
+    background-image: url(images/icon-person.svg);
+}
+
+.inppl::placeholder {
+    color: var(--Light-grayish-cyan2);
+}
+
+.lblTip {
+    text-align: left;
+}
+
+.wrapper-tip {
+    margin: 10px 10px 10px 10px;   
+    width: 100%;    
+    display: row; 
+    justify-content: center;
+    align-items: center;
+   
+    
+
+}
+
+
+.inpcustom {
+    width: 100px;
+    padding: 5px 5px;
+    margin: 5px;
+}
+
+.inpcustom::placeholder {
+    color: var(--Strong-cyan);
+}
+
+/* style for tip button */
+.button-tip {
+    background-color: var(--Very-dark-cyan);
+    height: 40px;
+    min-width: 110px;
+    border: none;
+    border-radius: 5px;
+    color: var(--White);
+    text-decoration: none;
+    font-size: 16px;
+    font-weight: 700;
+    float: left;
+    margin: 5px;
+    text-align: center;
+    cursor: pointer;
+}
+
+.buttonActive {
+    background-color: var(--Strong-cyan);
+}
+
+.button-tip:hover {
+    background-color: hsl(173, 54%, 65%);
+    transition: background-color 0.2s ease-in;
+}
+
+.msgerror {
+    float: right;
+    color: rgb(170, 68, 68);
+    font-size: 10px;
+    margin: 10px 0 0 0;
+}
+
+/* style for out put box  */
+.output-box {
+    background-color: var(--Very-dark-cyan);
+    height: 80%;
+    width: 50%;
+    margin: auto;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+}
+
+.output-amount,
+.wrapper-title {
+    margin: 50px 10px 0px 30px;
+    color: white;
+}
+
+.output-amount-value {
+    color: var(--Strong-cyan);
+    font-size: 20px;
+    font-weight: 700;
+    margin: -15px 0 0 0;
+    float: right;
+}
+
+.output-amount-person {
+    color: var(--Light-grayish-cyan2);
+    font-size: 13px;
+    margin: -5px 0 0 0;
+}
+
+.button-reset {
+    background-color: var(--Strong-cyan);
+    height: 40px;
+    min-width: 210px;
+    border: none;
+    border-radius: 5px;
+    color: var(--Very-dark-cyan);
+    text-decoration: none;
+    font-size: 17px;
+    font-weight: 700;
+    text-align: center;
+    margin: 110px 20px 20px 20px;
+    padding-top: 10px;
+    cursor: pointer;
+}
+
+
+.attribution {
+    position: relative;
+    font-size: 11px;
+    text-align: center;
+}
+
+
+
+/*****End of stylesheet for css *****/
