@@ -39,8 +39,8 @@ Users should be able to:
 ## Author
 
 - Website - [Abhishek Alekar](https://phpabhishek.nz)
-- Frontend Mentor - [@abhishekalekar](https://www.frontendmentor.io/profile/yourusername)
-- Twitter - [@abhishekalekar](https://www.twitter.com/yourusername)
+- Frontend Mentor - [@abhishekalekar](https://www.frontendmentor.io/profile/abhishekalekar)
+- Twitter - [@abhishekalekar](https://www.twitter.com/abhishekalekar)
 
 
 
