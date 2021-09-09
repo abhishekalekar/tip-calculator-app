@@ -25,8 +25,8 @@ Users should be able to:
 
 ### Links
 
-- Solution URL: [https://github.com/abhishekalekar/tip-calculator-app](https://your-solution-url.com)
-- Live Site URL: [https://abhishekalekar.github.io/tip-calculator-app/](https://your-live-site-url.com)
+- Solution URL: [Solution](https://github.com/abhishekalekar/tip-calculator-app)
+- Live Site URL: [Live](https://abhishekalekar.github.io/tip-calculator-app/)
 
 ## My process
 
